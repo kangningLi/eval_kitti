@@ -7,7 +7,7 @@ import numpy as np
 # classes = ['car', 'pedestrian', 'cyclist', 'van', 'truck', 'person_sitting', 'tram']
 classes = ['car', 'pedestrian', 'cyclist']
 difficulties = ['easy', 'moderate', 'hard']
-params = ['detection', 'orientation']
+params = ['detection','detection_3d']
 
 if len(sys.argv)<2:
     print 'Usage: parser.py results_folder'
